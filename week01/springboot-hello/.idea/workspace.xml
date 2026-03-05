@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2aa5515-746f-4123-aa2b-c24f809fd790" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/../springboot-health/src/main/java/com/xjy/springboothealth/controller/HeathController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-health/src/main/java/com/xjy/springboothealth/vo/ResultVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a2aa5515-746f-4123-aa2b-c24f809fd790" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +68,7 @@
       <updated>1772719312384</updated>
       <workItem from="1772719313794" duration="1833000" />
       <workItem from="1772721532137" duration="6000" />
-      <workItem from="1772721860232" duration="1424000" />
+      <workItem from="1772721860232" duration="1797000" />
     </task>
     <servers />
   </component>
