@@ -13,7 +13,7 @@ export async function fetchSpecialByTitle(params: {
   pageNum: number
   pageSize: number
 }): Promise<SpecialPageResult> {
-  const data = await httpGet<unknown>('/v1/special/selectByTitle', {
+  const data = await httpGet<unknown>('/v1/special/page', {
     params: {
       title: params.title,
       pageNum: params.pageNum,

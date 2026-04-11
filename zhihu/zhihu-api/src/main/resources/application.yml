@@ -11,7 +11,7 @@ spring:
 # mp ??
 mybatis-plus:
   mapper-locations: classpath:mapper/**/*.xml # ??mapper????
-  type-aliases-package: top.mqxu.zhihu.api.entity # ??entity
+  type-aliases-package: com.xjy.week06.api.entity # ??entity
   configuration:
     map-underscore-to-camel-case: true  # ??????
     log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl # ??sql

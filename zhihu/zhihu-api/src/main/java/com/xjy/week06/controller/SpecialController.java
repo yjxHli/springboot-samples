@@ -33,7 +33,7 @@ public class SpecialController {
      * @param pageSize 页大小
      * @return 专栏列表
      */
-    @GetMapping("/selectByTitle")
+    @GetMapping("/page")
     @Operation(summary = "分页查询专栏", description = "分页查询专栏接口")
     public Result<Page<Special>> selectByTitle(@RequestParam(required = false) String title, @RequestParam(defaultValue = "1") Integer pageNum, @RequestParam(defaultValue = "10") Integer pageSize) {
         return Result.success("查询成功", specialService.selectByTitle(title, pageNum, pageSize));
